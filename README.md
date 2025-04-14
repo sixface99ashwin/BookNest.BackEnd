@@ -1,5 +1,3 @@
-# BookNest.BackEnd
-
 # 📚 BookNest.BackEnd
 
 BookNest is a scalable and modular backend Web API built using ASP.NET Core. The project is currently under development and aims to serve as the foundation for a full-fledged e-commerce-like book store platform.
