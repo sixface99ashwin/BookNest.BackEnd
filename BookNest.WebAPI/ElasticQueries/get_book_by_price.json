@@ -1,0 +1,10 @@
+{
+  "query": {
+    "range": {
+      "price": {
+        "gte": "{{max_amount}}",
+        "lte": "{{min_amount}}"
+      }
+    }
+  }
+}

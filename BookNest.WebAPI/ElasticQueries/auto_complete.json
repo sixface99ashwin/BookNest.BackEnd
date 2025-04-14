@@ -1,0 +1,14 @@
+{
+  "suggest": {
+    "book_suggest": {
+      "prefix": "{{SearchTerm}}",
+      "completion": {
+        "field": "auto_suggest",
+        "fuzzy": {
+          "fuzziness": 1
+        },
+        "size": 5
+      }
+    }
+  }
+}

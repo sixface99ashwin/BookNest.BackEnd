@@ -1,0 +1,26 @@
+{
+  "query": {
+    "bool": {
+      "must": [
+        {{"FILTERS"}}
+      ]
+    }
+  },
+  "sort": [
+    {{SORT_FIELD}}
+  ],
+  "from": {{FROM}},
+  "size": {{SIZE}},
+  "_source": [
+    "bookId",
+    "title",
+    "author",
+    "category",
+    "price",
+    "published_year",
+    "description",
+    "image_url",
+    "publisher",
+    "rating"
+  ]
+}

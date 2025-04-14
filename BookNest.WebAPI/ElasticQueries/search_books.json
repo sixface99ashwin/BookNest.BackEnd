@@ -1,0 +1,12 @@
+{
+  "query": {
+    "multi_match": {
+      "query": "{{SearchTerm}}",
+      "fields": [ "title^3", "author^2", "description" ],
+      "type": "best_fields",
+      "fuzziness": "AUTO",
+      "operator": "and"
+    }
+  }
+}
+

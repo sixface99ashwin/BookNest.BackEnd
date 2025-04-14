@@ -1,0 +1,17 @@
+{
+  "from": "{{pageStart}}",
+  "size": "{{pageSize}}",
+  "query": {
+    "more_like_this": {
+      "fields": [ "title", "category", "author" ],
+      "like": [
+        {
+          "_index": "books",
+          "_id": "{{bookId}}"
+        }
+      ],
+      "min_term_freq": 1,
+      "max_query_terms": 12
+    }
+  }
+}

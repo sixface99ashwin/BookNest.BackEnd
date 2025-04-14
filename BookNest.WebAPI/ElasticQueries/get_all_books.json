@@ -1,0 +1,7 @@
+{
+  "from": "{{pageStart}}",
+  "size": "{{pageSize}}",
+  "query": {
+    "match_all": {}
+  }
+}
